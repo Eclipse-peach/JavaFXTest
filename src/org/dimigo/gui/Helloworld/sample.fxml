@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dimigo.gui.Helloworld.Controller">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="PLANNER">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="610.0">
+                     <children>
+                        <ScrollPane layoutY="62.0" maxHeight="1000.0" prefHeight="407.0" prefWidth="600.0">
+                           <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="0.0">
+                                 <children>
+                                    <CheckBox fx:id="button_NonChecked1" layoutX="400.0" layoutY="100.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked2" layoutX="400.0" layoutY="140.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked3" layoutX="400.0" layoutY="180.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked4" layoutX="400.0" layoutY="220.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <TextField fx:id="planBox1" editable="false" layoutX="100.0" layoutY="100.0" prefHeight="26.0" prefWidth="270.0" visible="false" />
+                                    <TextField fx:id="planBox2" editable="false" layoutX="100.0" layoutY="140.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox3" editable="false" layoutX="100.0" layoutY="180.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox4" editable="false" layoutX="100.0" layoutY="220.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox5" editable="false" layoutX="100.0" layoutY="260.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox6" editable="false" layoutX="100.0" layoutY="300.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox7" editable="false" layoutX="100.0" layoutY="340.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox8" editable="false" layoutX="100.0" layoutY="380.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox9" editable="false" layoutX="100.0" layoutY="420.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                    <TextField fx:id="planBox10" editable="false" layoutX="100.0" layoutY="460.0" prefHeight="26.0" prefWidth="269.0" visible="false" />
+                                     <Label layoutX="220.0" layoutY="10.0" text="오늘 하루도 화이팅!">
+                                       <font>
+                                          <Font name="LG PC" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="delete1" layoutX="420.0" layoutY="100.0" mnemonicParsing="false" onAction="#deletePlan1" text="Delete" visible="false" />
+                                    <Button fx:id="delete2" layoutX="420.0" layoutY="140.0" mnemonicParsing="false" onAction="#deletePlan2" text="Delete" visible="false" />
+                                    <Button fx:id="delete3" layoutX="420.0" layoutY="180.0" mnemonicParsing="false" onAction="#deletePlan3" text="Delete" visible="false" />
+                                    <Button fx:id="delete4" layoutX="420.0" layoutY="220.0" mnemonicParsing="false" onAction="#deletePlan4" text="Delete" visible="false" />
+                                    <Button fx:id="delete5" layoutX="420.0" layoutY="260.0" mnemonicParsing="false" onAction="#deletePlan5" text="Delete" visible="false" />
+                                    <Button fx:id="delete6" layoutX="420.0" layoutY="300.0" mnemonicParsing="false" onAction="#deletePlan6" text="Delete" visible="false" />
+                                    <Button fx:id="delete7" layoutX="420.0" layoutY="340.0" mnemonicParsing="false" onAction="#deletePlan7" text="Delete" visible="false" />
+                                    <Button fx:id="delete8" layoutX="420.0" layoutY="380.0" mnemonicParsing="false" onAction="#deletePlan8" text="Delete" visible="false" />
+                                    <Button fx:id="delete9" layoutX="420.0" layoutY="420.0" mnemonicParsing="false" onAction="#deletePlan9" text="Delete" visible="false" />
+                                    <Button fx:id="delete10" layoutX="420.0" layoutY="460.0" mnemonicParsing="false" onAction="#deletePlan10" text="Delete" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked5" layoutX="400.0" layoutY="260.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked6" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked7" layoutX="400.0" layoutY="340.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked8" layoutX="400.0" layoutY="380.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked9" layoutX="400.0" layoutY="420.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <CheckBox fx:id="button_NonChecked10" layoutX="400.0" layoutY="460.0" mnemonicParsing="false" onAction="#cbChecked" visible="false" />
+                                    <Button fx:id="deleteAll" layoutX="260.0" layoutY="35.0" mnemonicParsing="false" onAction="#allDelete" text="DeleteAll" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="inputPlan" layoutX="228.0" layoutY="14.0" onAction="#submit_Plan" prefHeight="37.0" prefWidth="164.0" promptText="PLANHERE" />
+                        <Button fx:id="planSubmit" layoutX="391.0" layoutY="14.0" mnemonicParsing="false" onAction="#submit_Plan" prefHeight="37.0" prefWidth="71.0" text="Submit" />
+                        <Label layoutX="42.0" layoutY="6.0" prefHeight="349.0" prefWidth="226.0" text="PLANNER">
+                           <font>
+                              <Font name="Star Jedi" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="INTRODUCE">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="243.0" layoutY="14.0" prefHeight="48.0" prefWidth="114.0" text="INTRODUCE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="124.0" layoutY="75.0" text="이 플래너는 플래너로 습관을 바꿀 수 있을까? 라는 작은 아이디어에서 출발했습니다.">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="175.0" layoutY="105.0" text="작은 습관 하나로 인생을 윤택하게 바꾸는 것이 가능할까요?">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="235.0" layoutY="135.0" text="저는 가능하다고 생각했습니다.">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="191.0" layoutY="165.0" text="이 플래너는 저에게 계획하는 습관을 줄 수 있습니다.">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="159.0" layoutY="195.0" text="무엇을 계획하는지에 따라 저의 학습 습관도 바뀔 수 있지 않을까요?">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="194.0" layoutY="225.0" text="학습을 보조해주는 좋은 도구들도 많이 넣었습니다.">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="213.0" layoutY="255.0" text="학습을 넘어서 인생 습관을 교정해보세요!">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="153.0" layoutY="285.0" text="대학을 잘 갈 수 있을지는 모르겠으나 당신의 삶은 윤택해 질 것입니다.">
+                           <font>
+                              <Font name="LG PC" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="PROJECT">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="610.0">
+                     <children>
+                        <Button fx:id="goToViewTools" layoutX="240.0" layoutY="154.0" mnemonicParsing="false" onAction="#viewTools" text="Go To View Tools" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
